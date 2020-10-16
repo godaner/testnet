@@ -10,7 +10,7 @@ func main() {
 	var addr string
 	var nett string
 	flag.StringVar(&addr, "addr", "addr", "addr")
-	flag.StringVar(&addr, "net", "tcp", "net")
+	flag.StringVar(&nett, "net", "tcp", "net")
 	flag.Parse()
 	if addr == "" || nett == "" {
 		flag.PrintDefaults()
